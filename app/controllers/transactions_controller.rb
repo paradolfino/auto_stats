@@ -1,16 +1,8 @@
 class TransactionsController < ApplicationController
     
-    def index
-        @transactions = Transaction.all
-    end
-    
     def trainings
         @transactions = Transaction.order('id DESC')
         json_response(@transactions)
-    end
-    
-    def new
-       @transaction = Transaction.new 
     end
     
     def create
