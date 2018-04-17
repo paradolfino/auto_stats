@@ -1,7 +1,11 @@
 class TransactionsController < ApplicationController
     
-    def trainings
+    def index
         @transactions = Transaction.all
+    end
+    
+    def trainings
+        @transactions = Transaction.order('id DESC')
         json_response(@transactions)
     end
     
