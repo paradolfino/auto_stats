@@ -9,6 +9,10 @@ class TransactionsController < ApplicationController
         json_response(@transactions)
     end
     
+    def new
+       @transaction = Transaction.new 
+    end
+    
     def create
        @transaction = Transaction.new(transaction_params)
     end
