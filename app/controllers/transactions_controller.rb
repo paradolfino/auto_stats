@@ -4,10 +4,6 @@ class TransactionsController < ApplicationController
         
     end
     
-    def new
-        
-    end
-    
     def create
         
     end
