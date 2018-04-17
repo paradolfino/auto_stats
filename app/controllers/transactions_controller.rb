@@ -1,6 +1,6 @@
 class TransactionsController < ApplicationController
     
-    def create
+    def show_all
         
     end
     
