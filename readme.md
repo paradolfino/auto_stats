@@ -4,3 +4,5 @@
 ##### 17/04/2018: 21:24 - 21:25:pool[generate transactions controller]
 
 ##### 17/04/2018: 21:25 - 21:40:pool[set up actions, private methods for transactions]
+
+##### 17/04/2018: 21:40 - 21:43:pool[create json response concern]
