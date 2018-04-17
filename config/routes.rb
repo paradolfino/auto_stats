@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  get '/trainings' => 'transactions#trainings'
+    root 'transactions#trainings'
+    get '/trainings' => 'transactions#trainings'
+    post '/trainings' => ''
 end
