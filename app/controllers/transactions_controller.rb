@@ -2,6 +2,7 @@ class TransactionsController < ApplicationController
     
     def list
         @transactions = Transaction.all
+        json_response(@transactions)
     end
     
     def create
