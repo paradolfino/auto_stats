@@ -1,5 +1,7 @@
 class TransactionsController < ApplicationController
     
+    def index; end
+    
     def trainings
         @transactions = Transaction.order('id DESC')
         json_response(@transactions)
