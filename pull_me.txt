@@ -1,1 +1,10 @@
 
+[initial api set up with a model, controller, and routes]
+### 17/04/2018[21:19 - 21:56]:
+* generate transaction model
+* generate transactions controller
+* set up actions, private methods for transactions
+* create json response concern
+* set up routes
+* set up transactions order in controller
+
