@@ -1,11 +1,11 @@
 class TransactionsController < ApplicationController
     
-    def show_all
-        
+    def list
+        @transactions = Transaction.all
     end
     
     def create
-       @transaction = Transaction.new(transaction_params) 
+       @transaction = Transaction.new(transaction_params)
     end
     
     private
