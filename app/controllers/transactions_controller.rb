@@ -1,6 +1,6 @@
 class TransactionsController < ApplicationController
     
-    def list
+    def trainings
         @transactions = Transaction.all
         json_response(@transactions)
     end
